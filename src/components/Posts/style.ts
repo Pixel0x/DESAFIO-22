@@ -7,45 +7,46 @@ export const SectionPost = styled.div`
 export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px 26px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2.5rem;
 `;
 
 export const Post = styled.div`
-  max-width: 600px;
+  max-width: 550px;
   background: var(--dark-200);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: 1px solid var(--purple);
 
   img {
     width: 100%;
-    border-radius: 4px;
+    border-radius: 0.25rem;
   }
 
   h4 {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 24px;
-    line-height: 31.2px;
+    font-size: 1.5rem;
+    line-height: 1.95rem;
     font-weight: 500;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     color: var(--light);
   }
 
   p {
-    font-size: 18px;
-    line-height: 30.6px;
+    font-size: 1.125rem;
+    line-height: 1.9125rem;
     font-weight: 500;
     color: var(--gray);
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
     font-family: "DM Sans", sans-serif;
   }
 `;
 
 export const PostContainer = styled.div`
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,15 +54,15 @@ export const PostContainer = styled.div`
 
 export const Buttons = styled.div`
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
 
   button {
     text-transform: uppercase;
-    font-size: 15px;
-    line-height: 19.53px;
+    font-size: 0.9375rem;
+    line-height: 1.22rem;
     font-weight: 700;
-    padding: 10px 50px;
-    border-radius: 4px;
+    padding: 0.625rem 3.125rem;
+    border-radius: 0.25rem;
 
     &:first-child {
       color: var(--dark);

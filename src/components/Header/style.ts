@@ -7,9 +7,25 @@ export const Header = styled.header`
 export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px 80px 20px;
+  padding: 2.5rem 1.25rem 5rem 1.25rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+
+  @media (max-width: 660px) {
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      padding-bottom: 1.875rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 250px;
+  }
 
   a,
   button {
@@ -22,20 +38,28 @@ export const Container = styled.div`
   div {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 3.75rem;
+
+    @media (max-width: 480px) {
+      gap: 1.25rem;
+    }
   }
 
   a {
-    font-size: 17px;
-    line-height: 22.13px;
+    font-size: 1.06rem;
+    line-height: 1.38rem;
     text-decoration: none;
   }
 
   button {
-    font-size: 15px;
-    line-height: 19.53px;
+    font-size: 0.93rem;
+    line-height: 1.22rem;
     background: transparent;
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     border: 1px solid #873eff;
+
+    @media (max-width: 460px) {
+      padding: 1.25rem 0.875rem;
+    }
   }
 `;

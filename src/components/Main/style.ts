@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 `;
 
 export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 
   h2,
   p {
@@ -27,24 +27,24 @@ export const Container = styled.div`
 
   h2 {
     color: var(--green);
-    font-size: 24px;
-    margin-bottom: 12px;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
     font-weight: Bold;
-    line-height: 31.2px;
+    line-height: 1.95rem;
   }
 
   h1 {
     color: var(--light);
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 83.2px;
-    margin-bottom: 32px;
+    font-size: 4rem;
+    line-height: 5.2rem;
+    margin-bottom: 2rem;
   }
 
   p {
     color: var(--gray);
-    font-size: 24px;
-    line-height: 40.8px;
+    font-size: 1.5rem;
+    line-height: 2.55rem;
   }
 `;

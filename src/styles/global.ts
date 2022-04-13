@@ -25,6 +25,18 @@ html {
   @media (max-width: 720px) {
     font-size: 87.5%;
 }
+
+  @media (max-width: 600px) {
+    font-size: 81,25%;
+}
+
+  @media (max-width: 440px) {
+    font-size: 75%;
+}
+
+  @media (max-width: 340px) {
+    font-size: 68,75%;
+}
 }
 
 body {
